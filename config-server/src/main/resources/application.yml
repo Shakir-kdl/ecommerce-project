@@ -10,11 +10,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Shakir-kdl/springboot-microservices.git
+          uri: https://github.com/Shakir-kdl/ecommerce-project.git
           default-label: main
           clone-on-start: true
           force-pull: true
-          search-paths: configs/18thaug
+          search-paths: config-repo
 
 management:
   endpoints:
